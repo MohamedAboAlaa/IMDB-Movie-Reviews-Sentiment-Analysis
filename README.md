@@ -246,13 +246,6 @@ if st.button("Analyze Review"):
         st.success(f"Classification: {sentiment}")
     else:
         st.error("Please enter a review")
-
-# GitHub link with icon
-github_url = "https://github.com/YOUR_USERNAME/YOUR_REPO"
-st.markdown(
-    f'[![GitHub](https://img.shields.io/badge/GitHub-Visit%20Repo-black?logo=github)]({github_url})',
-    unsafe_allow_html=True
-)
 ```
 
 ### Running the Streamlit App:
